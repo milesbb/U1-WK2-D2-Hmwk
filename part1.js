@@ -7,6 +7,9 @@ ASSIGNMENT RULES
 - You can use the bash terminal, the VSCode terminal or the one embedded in your Operating System if you're using macOS or Linux.
 - The solution must be available for the tutors by the end of the day (5PM CET)
 */
+console.log("")
+console.log("===================Part 1======================")
+console.log("")
 
 /* EXERCISE 1
  Enumerate and describe the main datatypes in JavaScript. Try to explain the concepts as you were speaking to a 12 years old.
@@ -91,7 +94,7 @@ let numbers = Array("one", "two", "three", "four", "five", "six", "seven", "eigh
 console.log("");
 console.log("============Excercise 8============");
 console.log("");
-console.log("Your random number is " + numbers[x] + ".");
+console.log("Your random number is " + numbers[x].toString() + ".");
 
 
 /* EXERCISE 9
@@ -100,10 +103,7 @@ console.log("Your random number is " + numbers[x] + ".");
 */
 
 let cat = Boolean(false);
-function getCat(cat) {
-    return (cat ? "YES" : "NO")
-}
-let iscat = getCat(cat);
+let iscat = cat ? "YES" : "NO";
 console.log("")
 console.log("============Excercice 9============")
 console.log("")
@@ -111,6 +111,10 @@ console.log("Is that a cat?");
 console.log(iscat);
 console.log("")
 cat = true;
-iscat = getCat(cat);
+iscat = cat ? "YES" : "NO";
 console.log("Is is a cat now?");
 console.log(iscat);
+
+// end of part1
+console.log("");
+console.log("===================End of Part 1======================");
