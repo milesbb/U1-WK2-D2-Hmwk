@@ -116,17 +116,17 @@ console.log("Your random number is " + numbers[x].toString() + ".");
 */
 
 let cat = Boolean(false);
-let iscat = cat ? "YES" : "NO";
+let isCat = cat ? "YES" : "NO";
 console.log("")
 console.log("============Excercice 9============")
 console.log("")
 console.log("Is that a cat?");
-console.log(iscat);
+console.log(isCat);
 console.log("")
 cat = true;
-iscat = cat ? "YES" : "NO";
+isCat = cat ? "YES" : "NO";
 console.log("Is is a cat now?");
-console.log(iscat);
+console.log(isCat);
 
 // end of part1
 console.log("");
