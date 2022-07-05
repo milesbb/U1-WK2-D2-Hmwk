@@ -89,8 +89,7 @@ console.log("")
 console.log("Are name1 and name2 equal?");
 console.log(difcheck.toString());
 console.log("")
-name2 = "john";
-difcheck = (name1 === name2);
+difcheck = (name1 === name2.toLowerCase());
 console.log("Are name1 and name2 equal now?");
 console.log(difcheck.toString());
 
