@@ -19,7 +19,7 @@ let firstname = "miles";
 // ^ A string represents text based data, i.e. words, letters, sentences, etc...
 
 let age = "22";
-// ^ A number/integer represents a numerical value, similar data types include BigInt (for larger numbers), double , single
+// ^ A number/integer represents a numerical value, similar data types include BigInt (for larger numbers), double and single (for non-integer inclusivity)
 
 let bool = true;
 // ^ A boolean represents a true/false value
@@ -38,11 +38,15 @@ let nothing = null;
 
 // A variable is a container for different data types that in some cases can be changed and in others are unchangable and are meant to be used as constants or in other operations and calculations
 
+
+
 /* EXERCISE 3
  Write the code to execute an addition (a sum) of the numbers 12 and 20.
 */
 
 let sum = 12 + 20;
+
+
 
 /* EXERCISE 4
  Create a variable named x and assign to it the number 12.
@@ -51,11 +55,15 @@ let sum = 12 + 20;
 let y = 12;
 // because 'x' is used later on
 
+
+
 /* EXERCISE 5
  Create a variable called name and assign to it the string "John Doe".
 */
 
 let name = "John Doe";
+
+
 
 /* EXERCISE 6
  Execute a subtraction between the number 12 and the variable x you declared before (which is storing the value 12).
@@ -63,6 +71,8 @@ let name = "John Doe";
 
 y -= 12;
 // because 'x' is used later on
+
+
 
 /* EXERCISE 7
  Create two variables: name1 and name2. Assign to name1 the string "john", and to name2 the string "John" (this one has a capital J!)
@@ -84,6 +94,9 @@ difcheck = (name1 === name2);
 console.log("Are name1 and name2 equal now?");
 console.log(difcheck.toString());
 
+
+
+
 /* EXERCISE 8
  Create a variable named x, and assign to it a numeric value less than 10.
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
@@ -95,6 +108,7 @@ console.log("");
 console.log("============Excercise 8============");
 console.log("");
 console.log("Your random number is " + numbers[x].toString() + ".");
+
 
 
 /* EXERCISE 9
