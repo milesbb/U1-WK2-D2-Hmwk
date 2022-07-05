@@ -18,7 +18,7 @@ console.log("")
 let firstname = "miles";
 // ^ A string represents text based data, i.e. words, letters, sentences, etc...
 
-let age = "22";
+let age = 22;
 // ^ A number/integer represents a numerical value, similar data types include BigInt (for larger numbers), double and single (for non-integer inclusivity)
 
 let bool = true;
